@@ -4,7 +4,7 @@ public class Operators {
 
         //Operadores aritmeticos
         double a = 5;
-        var b = 3;
+        var b = 5;
 
         System.out.println(a + b);
         System.out.println(a - b);
