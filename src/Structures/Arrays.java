@@ -30,6 +30,6 @@ public class Arrays {
         nombres[1] = "Fredy@gmail.con";
         System.out.println(nombres[1]);
         nombres[1] = null;
-        
+
     }
 }
