@@ -1,6 +1,8 @@
 package Loops;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class loops_1 {
     public static void main(String[] args) {
@@ -29,5 +31,16 @@ public class loops_1 {
         for (Integer numero: numbers){
             System.out.println(numero);
         }
+
+        HashMap<String, String> emai = new HashMap<>();
+        emai.put("Fredy", "fredy@gmail.com");
+        emai.put("Robert", "robert@gmail.com");
+        emai.put("Carlos", "carlos@gmail.com");
+
+        for (Map.Entry<String, String> emails: emai.entrySet()){
+            System.out.println(emails.getKey());
+            System.out.println(emails.getValue());
+        }
+
     }
 }
